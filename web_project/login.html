@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+           *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+           }
+           body{
+               background: linear-gradient(rgb(124, 124, 248),pink);
+               align-items: center;
+               justify-content: center;
+               color:black;
+               padding-left: 600px;
+               /* padding-right: 450px; */
+               padding-top: 90px;
+               font-size: 25px;
+               
+           }
+           h1{
+               color: rgb(230, 252, 252);
+               font-family:'Times New Roman', Times, serif;
+            }
+            label{
+                color:black;
+                font-size: 26px;
+                
+            }
+            input{
+                font-size: 22px;
+            }
+            d1{
+                /* background-color: rgb(101, 84, 84); */
+               color: brown;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1><br>
+        <form action=" " method="post"></form>
+        <label for="name">Your Name</label>
+        <input type="text" placeholder="Type your name here"><br><br>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Type your username here" required><br><br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="abc@gmail.com" required> <br><br>
+        <label for="password">Password</label>
+        <input type="text" placeholder="Type your password here" required><br><br>
+        <label for="password">Confirm Password</label>
+        <input type="text" placeholder="Type your confirm password here" required><br><br>
+        <label for="details">Contact No</label>
+        <input type="phone" placeholder="Your contact no" required><br><br>
+        <label for="details">Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br><br>
+        <div class="d1">
+        <input type="submit" value="Register">
+    </div>
+    <a href="login1.html"><u>Login here</u></a>
+        
+
+    </body>
+</html>
